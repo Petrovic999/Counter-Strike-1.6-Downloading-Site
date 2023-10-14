@@ -1,0 +1,97 @@
+#naslov {
+    color: greenyellow;
+    text-align: center;
+}
+
+#podnaslov {
+    color: whitesmoke;
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    border-color: greenyellow;
+}
+
+.container {
+    display: flex;
+    margin-top: 40px;
+}
+
+.left-column,
+.right-column {
+    padding: 20px;
+}
+
+.left-column {
+    flex: 3.5;
+    color: whitesmoke;
+    text-align: left;
+}
+
+#dobrodosli,
+#nasamisija,
+#stanudimo {
+    font-size: larger;
+    display: inline-block;
+    overflow: hidden;
+    padding: 7px;
+    color: whitesmoke;
+    background-color: #444;
+}
+#stanudimo{
+    text-align: center;
+}
+
+#zelenispan {
+    color: greenyellow;
+}
+
+.right-column {
+    flex: 1;
+    color: whitesmoke;
+    text-align: center;
+    box-shadow: 0 0 3px ghostwhite;
+}
+
+.download-button,
+.download-buttontorr {
+    display: block;
+    margin: 0 auto 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-image: linear-gradient(#30715b, #29674e, #246046);
+    color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 150px;
+}
+
+.download-button:hover,
+.download-buttontorr:hover {
+    box-shadow: 0 0 5px whitesmoke;
+}
+
+.screenshot-gallery {
+    text-align: center;
+}
+
+.screenshot-gallery img {
+    margin-bottom: 10px;
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+}
+#pend{
+    text-align: center;
+    font-size: larger;
+    color: greenyellow;
+    line-height: 1.5;
+}
+.trailer{
+    text-align: center;
+}
